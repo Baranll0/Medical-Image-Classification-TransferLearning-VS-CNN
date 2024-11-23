@@ -1,4 +1,3 @@
-
 # Comparison of Transfer Learning and CNN Architectures for Medical Image Classification
 
 This project explores the application of convolutional neural networks (CNNs) and transfer learning methods for classifying medical images. Specifically, it compares the performance of the InceptionResNetV2 architecture and Vision Transformer (ViT) on a brain tumor classification dataset.
@@ -75,20 +74,10 @@ ViT was utilized for image classification. The pre-trained `google/vit-base-patc
 
 ---
 
-## Confusion Matrix
-
-For Transfer Learning:
-![Confusion Matrix](https://i.imgur.com/1cZUEWn.png)
-
-
----
-
 ## Conclusion
 
-- **InceptionResNetV2** demonstrated good accuracy and efficiency for this task, making it a strong choice for real-time deployment scenarios.
-- **ViT** surpassed InceptionResNetV2 in terms of accuracy and generalization, proving its strength in medical image classification tasks.
-
-Both approaches showed promise, and future work can involve combining these methods or exploring other advanced architectures like EfficientNet or hybrid CNN-transformer models.
+- InceptionResNetV2 and ViT both yielded promising results for this task. InceptionResNetV2 showed a good balance of accuracy and efficiency, suggesting its suitability for real-time applications. ViT achieved higher accuracy and appeared to generalize slightly better.
+- This study provides a preliminary exploration, and further investigation is warranted. Future work will involve expanding the dataset and evaluating additional architectures, such as EfficientNet or hybrid CNN-transformer models. Combining aspects of InceptionResNetV2 and ViT may also prove fruitful.
 
 ---
 
@@ -104,4 +93,4 @@ Both approaches showed promise, and future work can involve combining these meth
 ## Acknowledgements
 - **Dataset:** [Brain MRI Images for Brain Tumor Detection (Kaggle)](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection).
 - **Models:** Pre-trained architectures from Keras and Hugging Face Transformers.# Medical-Image-Classification-TransferLearning-VS-CNN
-# Medical-Image-Classification-TransferLearning-VS-CNN2
+# Medical-Image-Classification-TransferLearning-VS-CNN
